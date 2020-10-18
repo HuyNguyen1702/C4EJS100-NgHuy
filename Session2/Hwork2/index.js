@@ -1,0 +1,2 @@
+console.log("Câu 1: Boolean is Data that it's type is logical. \n - Has only two values: True or False. \n - It is commonly used to store yes/no values.");
+console.log("Câu 2: Results in Boolean: \n -Result of comparisons.");
