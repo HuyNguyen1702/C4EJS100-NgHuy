@@ -6,14 +6,6 @@ for (let task of tasks) {
         Complete: false
     });
 }
-// 6.1
-// console.log(`Hi there, this is your learning tasks to front-end developer careers`);
-// for (let i = 1; i <= frontendTasks.length; i++) {
-//     console.log(`${i}. ${frontendTasks[i-1]['task']}`);
-//     console.log(`   Complete: false`);
-// }
-
-// 6.2 6.3 6.4 6.5
 while (true) {
     let command = prompt('Enter your command(New, Delete, Update, Complete)');
     command = command.toLowerCase();
@@ -42,8 +34,6 @@ while (true) {
     }
     break;
 }
-
-// 6.6
 console.log(`Hi there, this is your learning tasks to front-end developer careers`);
 for (let i = 1; i <= frontendTasks.length; i++) {
     console.log(`${i}. [${frontendTasks[i-1]['Complete'] ? 'x' : ' '}] ${frontendTasks[i-1]['task']}`);
