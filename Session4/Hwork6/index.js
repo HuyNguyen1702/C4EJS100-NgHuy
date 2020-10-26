@@ -38,3 +38,4 @@ console.log(`Hi there, this is your learning tasks to front-end developer career
 for (let i = 1; i <= frontendTasks.length; i++) {
     console.log(`${i}. [${frontendTasks[i-1]['Complete'] ? 'x' : ' '}] ${frontendTasks[i-1]['task']}`);
 }
+///Tham khao bai ban Nam
