@@ -1,0 +1,80 @@
+/*==Reset CSS==*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*==Style cơ bản cho website==*/
+  body {
+    font-family: sans-serif;
+    color: #333;
+  }
+  
+  /*==Style cho menu===*/
+  #menu ul {
+    background: white;
+    list-style-type: none;
+    text-align: center;
+  }
+  #menu li {
+    color:white;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+  }
+  #menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  #menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+  }
+  
+  /*==Dropdown Menu==*/
+  .sub-menu {
+    display: none;
+    position: absolute;
+  }
+  #menu li {
+    position: relative;
+  }
+  #menu li:hover .sub-menu {
+    display: block;
+  }
+  .sub-menu li {
+    margin-left: 0 !important;
+  }
+  #relative{
+    position: relative;
+  }
+  #absolute {
+    position: absolute;
+  }
+  #boxsizing{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  img{
+    width: 100%;
+  }
+  /* #him{
+  width: 50%;
+  float: right;
+  padding: 1em;
+  float: left;
+  }
+  #her{
+  width: 50%;
+  float: right;
+  padding: 1em;
+  float: right;
+  }
+  body{
+    width: 100%;
+  } */
+  
