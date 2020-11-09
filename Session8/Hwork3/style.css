@@ -1,0 +1,13 @@
+button{
+    margin-left: 90%;
+}
+#output1 {
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+#output2 {
+    text-align: center;
+    margin-left: 60%;
+    font-size: 25px;
+}
